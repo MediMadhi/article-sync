@@ -1,0 +1,48 @@
+# Obsidian関連のファイル
+.trash/
+.DS_Store
+
+# Obsidianのワークスペース設定（必要に応じて）
+*.workspace
+
+# キャッシュファイル
+.cache/
+
+# プラグインのデータファイル（必要に応じて）
+.plugin-data/
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# バックアップファイル
+*.bak
+
+# 個人的な設定ファイル（必要に応じて）
+personal-settings.json
+
+# シンクツールの設定ファイル（使用している場合）
+.sync-ignore
+
+# エディタ固有のファイル
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS生成ファイル
+Thumbs.db
+
+# Node.js関連（プラグイン開発時など）
+node_modules/
+npm-debug.log
+
+# Python関連（スクリプト使用時など）
+__pycache__/
+*.py[cod]
+
+# 機密情報を含む可能性のあるファイル
+secrets.yaml
+config.ini
+
+# Python仮想環境
+venv/
